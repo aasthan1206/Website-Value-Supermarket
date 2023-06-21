@@ -8,6 +8,7 @@ import Products from "./components/products";
 import Banner from "./components/banner";
 import Testimonials from "./components/testimonials";
 import Brands from "./components/brands";
+import Info from "./components/info";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Banner />
       <Testimonials />
       <Brands />
+      <Info />
       <Footer />
     </div>
   );
