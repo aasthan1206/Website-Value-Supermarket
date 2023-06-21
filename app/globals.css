@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,65 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+#main-header{
+  width:500px 80%;
+  height:715px;
+  background-color:white;
+}
+
+#main-footer{
+  background-color:#f3f3f3;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+/* .button{
+  background-color: #065940;
+  color:#fff;
+  padding:10px 15px;
+  border:solid 1px #000;
+ 
+} */
+
+#block{
+  background:#f3f3f3;
+  float:left;
+  width:25%;
+  padding:10px;
+  box-sizing:border-box;
+}
+
+.my-list{
+  font-size: 12px ;
+  padding-top: 12px;
+}
+
+.desc{
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+li {
+  line-height: 2em;
+}
+
+ul {
+  list-style-type:"-  ";
+}
+
+a{
+  text-decoration:none;
+  color:#000;
+}
+
+a:hover{
+  color:darkgray;
+}
+
+.copyright{
+  text-align: left;
+  font-size: 10px;
 }
